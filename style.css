@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #76daff;
+  background-color: #aff1de;
 }
 
 .navbar-collapse {
@@ -21,12 +21,12 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: rgb(10, 10, 10);
+  background-color: #f7f5a4;
 }
 
 .seccion-clara {
@@ -37,7 +37,7 @@ h1 {
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Lobster', sans-serif;
 }
 
 .seccion-descripcion {
@@ -52,6 +52,9 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
+}
+.btnbtn-info{
+  color: #d0a8d8;
 }
 
 .texto-negro {
@@ -113,14 +116,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: rgb(0, 0, 0);
+  background-color: #e5c6eb;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #f6f8f8;
+  background-color: #d0a8d8;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -139,6 +142,8 @@ h1 {
 
 .badge {
   margin: 5px;
+  background-color: #adffa6;
+  color: #0a0a0a;
 }
 
 /* Proyectos */
@@ -194,7 +199,7 @@ h1 {
 }
 
 .overlay i {
-  color: black;
+  color: rgb(132, 202, 248);
   font-size: 60px;
   margin: 10px;
 }
@@ -233,12 +238,20 @@ h1 {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Roboto', sans-serif;
 }
-
+.experiencia-titulo{
+  font-family: 'Lobster', sans-serif;
+  max-width: 70%;
+  font-size: 30px;
+  text-align: center;
+}
 .testimonio-info {
   font-weight: bold;
   text-align: center;
+}
+.seccion-texto{
+  font-family: 'Roboto', sans-serif;
 }
 
 .testimonio-info p {
@@ -264,7 +277,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #f8c1bf;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -276,15 +289,15 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: rgb(8, 8, 8);
   font-size: 1.2rem;
 }
 
 .contacto button {
-  color: white;
+  color: rgb(7, 7, 7);
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid rgb(19, 18, 18);
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -292,18 +305,18 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(14, 13, 13);
+  color: rgb(245, 241, 241);
 }
 
 .contacto button i {
-  color: white;
+  color: rgb(15, 14, 14);
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
 .contacto button:hover i {
-  color: black;
+  color: rgb(247, 242, 242);
 }
 
 /* Pie de pagina (footer) */
@@ -322,7 +335,7 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .iconos-redes-sociales a {
@@ -333,29 +346,29 @@ footer {
   justify-content: center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid white;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: rgb(196, 142, 72);
+  border: 2px solid rgb(197, 143, 62);
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #0a0a0a;
   padding: 20px;
 }
 
